@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:
+}
+body {
+  background-color: rgba(191, 0, 255, 0.5);
+  background-image: url(../img/background.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 657px;
+  width: 750px;
+  margin: 280px;
+}
+header {
+  text-align:left;
+}
+.icon {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+.logotipo {
+  display: inline;
+  font-family: verdana sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+footer {
+  text-align: center;
+}
+.Bottomtext {
+  color: white;
+  font-style: italic;
+}
+h2{
+  color: white;
+  font-size: 43px;
+  padding-top: 20px;
+}
+.inputbox {
+  display: block;
+  background-color: rgba(217, 217, 217, 0.7);
+  border: 1px solid black;
+  padding-left: 5px;
+}
+  .mailbox {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .unread {
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 50px;
+    display: inline-block;
+    width: 55px;
+    text-align: center;
+  }
